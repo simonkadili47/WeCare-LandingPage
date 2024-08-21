@@ -60,8 +60,8 @@ function Hero() {
             
           </div>
           <div className="flex gap-12 mt-5">
-            <img src={dashboard_image3} alt="Dashboard 3" className=" -mr-8   rounded-lg w-72 h-auto" />
-            <img src={dashboard_image4} alt="Dashboard 4" className=" -mr-12 rounded-lg w-32 h-auto" />
+            <img src={dashboard_image1} alt="Dashboard 3" className=" -mr-8   rounded-lg w-72 h-auto" />
+            <img src={dashboard_image2} alt="Dashboard 4" className=" -mr-12 rounded-lg w-32 h-auto" />
           </div>
         </div>
       </div>

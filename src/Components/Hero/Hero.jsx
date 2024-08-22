@@ -33,7 +33,7 @@ function Hero() {
               </a>
             </button>
           </div>
-          <div className="text-gray-400 mt-4 flex">
+          <div className="text-gray-400 mt-4 flex ">
             <div className="flex items-center">
               <IoCheckmarkCircle className="text-green-500 mr-2" />
               <p>Get free trial of 7 days</p>

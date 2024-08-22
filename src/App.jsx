@@ -5,6 +5,7 @@ import Hero from './Components/Hero/Hero';
 import Count from './Components/Count/Count';
 import Features from './Components/Features/Features';
 import Chooseus from './Components/ChooseUs/Chooseus';
+import Testimonial from './Components/Testimonial/Testimonial';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Count/>
         <Features/>
         <Chooseus/>
+        <Testimonial/>
         
         
 

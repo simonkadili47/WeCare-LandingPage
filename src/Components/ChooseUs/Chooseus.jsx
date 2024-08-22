@@ -36,7 +36,7 @@ function Chooseus() {
       </div>
 
       {/* Text boxes below the heading and images */}
-      <div className='mt-8 grid grid-cols-3 gap-3 pt-4 text-lg rounded-xl '>
+      <div className='mt-8 grid grid-cols-3 gap-x-5 gap-y-5 pt-4 pr-24 text-lg rounded-xl '>
         <div className="flex items-center bg-gray-custom p-4 ml-24 rounded-lg w-[300px]">
           <IoCheckmarkCircle className="text-green-500 mr-2" />
           <p>Accurate Information</p>

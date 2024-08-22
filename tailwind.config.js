@@ -12,10 +12,13 @@ export default {
         'custom-gray': '#414d5a',
         'custom-green': '#296b64',
         'gray-custom':'#e9edf1',
-        'custom-gray':'#6aa49d'
+        'custom-gray':'#6aa49d',
+        'gray-color': '#f3f5f7',
       },
     },
   },
   plugins: [],
 }
+
+
 

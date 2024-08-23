@@ -5,7 +5,7 @@ import { IoCheckmark } from "react-icons/io5";
 
 function Plan() {
   return (
-    <div className="bg-blue-custom mt-24 mx-3 flex rounded-xl">
+    <div className="bg-blue-custom pb-5 mt-24 mx-3 flex rounded-xl">
       <div className="pt-36 pl-16">
         <h1 className="text-gray-400">PRICING PLANS</h1>
         <div className="text-white text-2xl font-bold">
@@ -82,7 +82,7 @@ function Plan() {
                 <IoCheckmark className="mr-2 text-xl" /> Comprehensive Billing
               </p>
             </div>
-            <div className="border flex border-gray-500 p-2 text-black bg-white justify-center rounded-lg mt-3 pl-2 mx-2 text-center">
+            <div className="border flex  border-gray-500 p-2 text-black bg-white justify-center rounded-lg mt-8 pl-2 mx-2 text-center">
               <p>Try For Free </p>
               <FaArrowRight className="pl-2 pt-1 text-2xl" />
             </div>

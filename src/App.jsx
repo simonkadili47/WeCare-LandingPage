@@ -8,6 +8,7 @@ import Chooseus from './Components/ChooseUs/Chooseus';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Answers from './Components/Answers/Answers';
 import Plan from './Components/Plan/Plan';
+import Discover from './Components/Discover/Discover';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Testimonial/>
         <Answers/>
         <Plan/>
+        <Discover/>
         
         
         

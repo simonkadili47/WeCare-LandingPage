@@ -9,6 +9,7 @@ import Testimonial from './Components/Testimonial/Testimonial';
 import Answers from './Components/Answers/Answers';
 import Plan from './Components/Plan/Plan';
 import Discover from './Components/Discover/Discover';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Answers/>
         <Plan/>
         <Discover/>
+        <Footer/>
         
         
         

@@ -5,8 +5,8 @@ import { IoCheckmark } from "react-icons/io5";
 
 function Plan() {
   return (
-    <div className="bg-blue-custom pb-5 mt-24 mx-3 flex rounded-xl">
-      <div className="pt-36 pl-16">
+    <div className="bg-blue-custom pb-5 mt-24 mx-3 flex flex-col lg:flex-row rounded-xl">
+      <div className="pt-10 lg:pt-36 pl-4 lg:pl-16">
         <h1 className="text-gray-400">PRICING PLANS</h1>
         <div className="text-white text-2xl font-bold">
           <p>Explore Our Pricing</p>
@@ -26,9 +26,9 @@ function Plan() {
       </div>
 
       {/* Parent container to control alignment */}
-      <div className="flex justify-end w-full pr-16">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-end w-full pr-4 lg:pr-16 mt-8 lg:mt-0">
         {/* First box */}
-        <div className="pt-10 p-2 ml-4 mt-8 border border-gray-500 rounded-lg w-64 h-auto">
+        <div className="pt-10 p-4 ml-0 lg:ml-4 mt-4 lg:mt-8 border border-gray-500 rounded-lg w-full lg:w-64 h-auto">
           <div className="pl-2 pt-3 bg-blue-custom">
             <h1 className="text-white font-bold text-xl">Standard Plan</h1>
             <p className="text-gray-400">Best for small Healthcare practices</p>
@@ -47,7 +47,7 @@ function Plan() {
               <p className="flex items-center">
                 <IoCheckmark className="mr-2 text-xl" /> Data Security and HIPAA Compliance
               </p>
-              <p className="flex items-center ">
+              <p className="flex items-center">
                 <IoCheckmark className="mr-2 text-xl" /> Basic Billing and Claim Processing
               </p>
             </div>
@@ -59,7 +59,7 @@ function Plan() {
         </div>
 
         {/* Second box */}
-        <div className="pt-10 p-2 ml-4 mt-8 border bg-custom-green border-gray-500 rounded-lg w-64 h-auto">
+        <div className="pt-10 p-4 ml-0 lg:ml-4 mt-4 lg:mt-8 border bg-custom-green border-gray-500 rounded-lg w-full lg:w-64 h-auto">
           <div className="pl-2 pt-3">
             <h1 className="text-white font-bold text-xl">Premium Plan</h1>
             <p className="text-gray-400">Best for medium-sized Healthcare practices</p>
@@ -82,7 +82,7 @@ function Plan() {
                 <IoCheckmark className="mr-2 text-xl" /> Comprehensive Billing
               </p>
             </div>
-            <div className="border flex  border-gray-500 p-2 text-black bg-white justify-center rounded-lg mt-8 pl-2 mx-2 text-center">
+            <div className="border flex border-gray-500 p-2 text-black bg-white justify-center rounded-lg mt-8 pl-2 mx-2 text-center">
               <p>Try For Free </p>
               <FaArrowRight className="pl-2 pt-1 text-2xl" />
             </div>

@@ -6,40 +6,47 @@ import { HiShoppingBag } from "react-icons/hi2";
 
 function Count() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 mt-4 mx-2 p-3 bg-gray-custom w-auto rounded-2xl">
-      <div className="flex items-center">
-        <div className="bg-custom-green rounded-full p-4 ml-6">
-          <RiHospitalFill className="text-white text-lg" />
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 mt-4 mx-4 p-4 bg-gray-custom rounded-2xl">
+      {/* Subscribed hospital/clinic */}
+      <div className="flex items-center justify-center md:justify-start flex-nowrap">
+        <div className="bg-custom-green rounded-full p-3 md:p-4">
+          <RiHospitalFill className="text-white text-lg md:text-xl" />
         </div>
-        <div className='p-2 ml-3'>
-          <h1 className='font-bold'>500+ Corp</h1>
+        <div className='p-2 ml-3 flex-grow'>
+          <h1 className='font-bold text-base md:text-lg'>500+ Corp</h1>
           <p className='text-sm text-gray-600'>Subscribed hospital/clinic</p>
         </div>
       </div>
-      <div className="flex items-center ml-4">
-        <div className="bg-custom-green rounded-full p-4">
-          <RiFlag2Fill className="text-white text-lg" />
+
+      {/* Countries Support */}
+      <div className="flex items-center justify-center md:justify-start flex-nowrap">
+        <div className="bg-custom-green rounded-full p-3 md:p-4">
+          <RiFlag2Fill className="text-white text-lg md:text-xl" />
         </div>
-        <div className='p-2 ml-3'>
-          <h1 className='font-bold'>32+ Countries</h1>
+        <div className='p-2 ml-3 flex-grow'>
+          <h1 className='font-bold text-base md:text-lg'>32+ Countries</h1>
           <p className='text-sm text-gray-600'>Countries Support</p>
         </div>
       </div>
-      <div className="flex items-center ml-3">
-        <div className="bg-custom-green rounded-full p-4">
-          <IoThumbsUpSharp className="text-white text-lg" />
+
+      {/* Customer Satisfaction */}
+      <div className="flex items-center justify-center md:justify-start flex-nowrap">
+        <div className="bg-custom-green rounded-full p-3 md:p-4">
+          <IoThumbsUpSharp className="text-white text-lg md:text-xl" />
         </div>
-        <div className='p-2 ml-3'>
-          <h1 className='font-bold'>98% Satisfied</h1>
+        <div className='p-2 ml-3 flex-grow'>
+          <h1 className='font-bold text-base md:text-lg'>98% Satisfied</h1>
           <p className='text-sm text-gray-600'>Customer Satisfaction</p>
         </div>
       </div>
-      <div className="flex items-center">
-        <div className="bg-custom-green rounded-full p-4">
-          <HiShoppingBag className="text-white text-lg" />
+
+      {/* Time Savings */}
+      <div className="flex items-center justify-center md:justify-start flex-nowrap">
+        <div className="bg-custom-green rounded-full p-3 md:p-4">
+          <HiShoppingBag className="text-white text-lg md:text-xl" />
         </div>
-        <div className='p-2 ml-3'>
-          <h1 className='font-bold'>Time savings</h1>
+        <div className='p-2 ml-3 flex-grow'>
+          <h1 className='font-bold text-base md:text-lg'>Time savings</h1>
           <p className='text-sm text-gray-600'>By Automating System</p>
         </div>
       </div>
